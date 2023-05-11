@@ -9,23 +9,23 @@
 `sudo apt install python3 python3-venv`\
 `python3 -m venv chap1`\
 `source chap1/bin/activate`\
-`deactivate`                  (to deactivate the virtual env, do this while exiting the program)\
+`deactivate`                  (to deactivate the virtual env, do this while exiting the program)
 
 - when the venv is active, if you use pip, then the package is stored only in venv.\
 `pip install hashcrack`
 
 - To check if the package is perfectly installed, drop a python shell and import the package.\
 `python3`\
-`import hashcrack`\
+`import hashcrack`
 
 - If not perfectly installed, then it throws this error\
 `Traceback (most recent call last):`\
 `  File "<stdin>", line 1, in <module>`\
-`ModuleNotFoundError: No module named 'hashcrack'`\
+`ModuleNotFoundError: No module named 'hashcrack'`
 
 - Install an IDE\
 `apt-get install code`    (From web)\
-`apt-get install -f ./code_1.39.2-1571154070_amd64.deb`  (From a file)\
+`apt-get install -f ./code_1.39.2-1571154070_amd64.deb`  (From a file)
 
 ## Code Hygiene
 

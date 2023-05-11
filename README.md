@@ -11,6 +11,9 @@
 `source chap1/bin/activate`\
 `deactivate`                  (to deactivate the virtual env, do this while exiting the program)
 
+If you are too lazy to type python3 instead of python, then use this\
+`sudo ln -s /usr/bin/python3 /usr/bin/python`
+
 - when the venv is active, if you use pip, then the package is stored only in venv.\
 `pip install hashcrack`
 

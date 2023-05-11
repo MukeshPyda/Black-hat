@@ -10,7 +10,7 @@ go to /tcp_client_1/ \
 create a venv `python -m venv tcp_client_1` \
 activate it `source tcp_client_1/bin/activate` \
 create code in tcp_client_1.py  (Socket is an inbuilt module, there is no need for pip install) \
-run using the play button.
+run using the python tcp_client_1/tcp_client_1.py
 
 ### Serious Assumptions
 - The first assumption is that our connectionwill always succeed
@@ -23,7 +23,7 @@ go to /udp_client_1/ \
 create a venv `python -m venv udp_client_1` \
 activate it `source udp_client_1/bin/activate` \
 create code in udp_client_1.py  (Socket is an inbuilt module, there is no need for pip install) \
-run using the play button.
+run using the python udp_client_1/udp_client_1.py
 
 ### Assumptions
 
@@ -31,3 +31,12 @@ run using the play button.
 - Close the connection only when you get some data. (Type something and press enter in netcat)
 
 Again, we’re not looking to be superior network programmers; we want it to be quick, easy, and reliable enough to handle our day-to-day hacking tasks.
+
+
+## TCP Server
+
+go to /tcp_server_1/ \
+create a venv `python -m venv tcp_server_1` \
+activate it `source tcp_server_1/bin/activate` \
+create code in tcp_server_1.py  (Socket is an inbuilt module, there is no need for pip install) \
+run using the python tcp_server_1/tcp_server_1.py

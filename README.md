@@ -56,3 +56,6 @@ nc 192.168.1.203 5555                                              (also works)
 
 echo -ne "GET / HTTP/1.1\r\nHost: reachtim.com\r\n\r\n" |python ./netcat.py -t reachtim.com -p 80 (As a client) \
 
+
+## Proxy
+sudo python proxy.py 192.168.1.203 21 ftp.sun.ac.za 21 True

@@ -40,3 +40,19 @@ create a venv `python -m venv tcp_server_1` \
 activate it `source tcp_server_1/bin/activate` \
 create code in tcp_server_1.py  (Socket is an inbuilt module, there is no need for pip install) \
 run using the python tcp_server_1/tcp_server_1.py
+
+
+## Netcat.py
+
+go to /netcat/ \
+create netcat.py \
+some commands: \
+python netcat.py -t 192.168.1.203 -p 5555 -l -c        (as a server) \
+python netcat.py -t 192.168.1.203 -p 5555               (as a client press Ctrl+D and send message/commands) \
+
+python netcat.py -t 192.168.1.203 -p 5555 -l -e="cat /etc/passwd"  (in server) \
+python netcat.py -t 192.168.1.203 -p 5555                           (in client press Ctrl+D)
+nc 192.168.1.203 5555                                              (also works)
+
+echo -ne "GET / HTTP/1.1\r\nHost: reachtim.com\r\n\r\n" |python ./netcat.py -t reachtim.com -p 80 (As a client) \
+

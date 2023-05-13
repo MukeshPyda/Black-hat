@@ -59,3 +59,14 @@ echo -ne "GET / HTTP/1.1\r\nHost: reachtim.com\r\n\r\n" |python ./netcat.py -t r
 
 ## Proxy
 sudo python proxy.py 192.168.1.203 21 ftp.sun.ac.za 21 True
+
+
+## SSH is awesome.
+ssh_cmd is just a demo, doesn't include the keys inside the py file.
+It is used for a single command to test the connection.
+
+## Reverse SSH is totally agnificent-may.
+send ssh_rcmd.py to windows when first connected.
+start ssh_server.py in your pc.
+Then start ssh_rcmd.py in windows.
+Once the connection is made, then send windows commands FROM LINUX. Not from windows.
